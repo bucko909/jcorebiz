@@ -1,9 +1,9 @@
 import re
 import lxml.html
 import lxml.etree
+import sys
 
-
-html=open("jcorebiz","r").read()
+html=sys.stdin.read()
 
 l = lxml.html.fromstring(html)
 
