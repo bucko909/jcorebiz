@@ -4,7 +4,7 @@ set -e
 
 PREFIX=/home/bucko/jcorebiz
 
-mkdir $PREFIX/data
+mkdir -p $PREFIX/data
 cd $PREFIX/data
 
 wget -q -O data.html http://j-core.biz/
