@@ -2,7 +2,7 @@
 
 set -e
 
-PREFIX=/home/bucko/jcorebiz
+PREFIX=/home/jcorebiz/jcorebiz
 
 mkdir -p $PREFIX/data
 cd $PREFIX/data
